@@ -13,7 +13,7 @@ Multiple base stations emit **frequency sweeps** constantly. The tracker listens
 ---
 
 ## 💡 Key Goals
-
+This project aims to be an **open tracking solution** for VR
 - 📡 **Continuous ultrasonic emission** – no Time-of-Flight needed  
 - 🎚️ **Per-station frequency modulation** – for unique signal identification  
 - 🚫 **Reflection filtering** – via frequency-time consistency checks  
@@ -38,18 +38,8 @@ Multiple base stations emit **frequency sweeps** constantly. The tracker listens
 
 This project is currently in the **concept phase**.
 
-✅ Prior art published (to block patents) I am scared of those lol
-🚧 Prototyping in progress  
-🔜 Hardware suggestions coming soon  
-📂 Code for signal processing and positioning planned
-
 ---
 
-## 🎯 Goal
-
-This project aims to be an **open tracking solution** for VR
-
----
 
 ## 📜 License
 
