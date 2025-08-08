@@ -12,7 +12,7 @@ Multiple base stations emit **frequency sweeps** constantly. The tracker listens
 
 ---
 
-## 💡 Key Features
+## 💡 Key Goals
 
 - 📡 **Continuous ultrasonic emission** – no Time-of-Flight needed  
 - 🎚️ **Per-station frequency modulation** – for unique signal identification  
@@ -23,7 +23,7 @@ Multiple base stations emit **frequency sweeps** constantly. The tracker listens
 
 ---
 
-## 📐 How It Works
+## 📐 The Plan
 
 1. **Base stations** emit modulated ultrasonic signals (e.g., 20–40 kHz) in continuous frequency sweeps.
 2. Each station uses a **unique sweep pattern** to be individually identifiable.
@@ -38,7 +38,7 @@ Multiple base stations emit **frequency sweeps** constantly. The tracker listens
 
 This project is currently in the **concept phase**.
 
-✅ Prior art published (to block patents)  
+✅ Prior art published (to block patents) I am scared of those lol
 🚧 Prototyping in progress  
 🔜 Hardware suggestions coming soon  
 📂 Code for signal processing and positioning planned
@@ -47,30 +47,20 @@ This project is currently in the **concept phase**.
 
 ## 🎯 Goal
 
-This project aims to be an **open tracking solution** for:
-- Hobby developers & makers
-- Low-cost VR/AR setups
-- Education & research
-- Humanitarian tech (affordable accessibility to immersive tools)
+This project aims to be an **open tracking solution** for VR
 
 ---
 
 ## 📜 License
 
-MIT License — free for private, academic, or commercial use.  
-(We may later switch to CERN-OHL for hardware-specific open source compliance.)
+MIT License — free for private, academic, or commercial use.
 
 ---
 
 ## 🤝 Contribute
 
-Contributions are welcome! You can help with:
-- DSP code (FFT, Goertzel)
-- Microcontroller firmware (STM32, RP2040, ESP32, etc.)
-- 3D case design
-- Testing & prototyping
-- Documentation & examples
-Or any other stuff you like. Please throw a dm on discord. Username mh48
+Contributions are welcome! 
+Please just throw a dm on discord. Planing to organize everything there. Username: mh48
 ---
 
 
