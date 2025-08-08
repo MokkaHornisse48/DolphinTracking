@@ -2,7 +2,7 @@
 
 An **open-source ultrasonic tracking system** for Virtual Reality (VR) that is low-cost, low-latency, and resistant to reflections.  
 The goal is to make VR more **accessible and affordable** for everyone — without relying on expensive proprietary hardware.
-
+Let the dolphins sing (:
 ---
 
 ## 🔍 Overview
