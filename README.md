@@ -1,59 +1,35 @@
 # DolphinTracking
 
-An **open-source ultrasonic tracking system** for Virtual Reality (VR) that is low-cost, low-latency, and resistant to reflections.  
-The goal is to make VR more **accessible and affordable** for everyone — without relying on expensive proprietary hardware.
-Let the dolphins sing (:
----
+The idea is to make an ultrasound based Tracking system to be as low cost as posible and as accurate as possible.
 
-## 🔍 Overview
+Current available technology does not provide accurate enuogh or to expensive 6dof tracking to be usefull for vr.
 
-This project proposes a novel tracking system for VR that uses **continuously modulated ultrasonic signals** instead of traditional pulse-based tracking.  
-Multiple base stations emit **frequency sweeps** constantly. The tracker listens with a microphone and calculates its **position in space** — without cameras or optics.
+I think it is possible to create a mm accurate tracking system for vr using ultrasound combined with some clever techniques.
 
----
+## Ideas
 
-## 💡 Key Goals
-This project aims to be an **open tracking solution** for VR
-- 📡 **Continuous ultrasonic emission** – no Time-of-Flight needed  
-- 🎚️ **Per-station frequency modulation** – for unique signal identification  
-- 🚫 **Reflection filtering** – via frequency-time consistency checks  
-- 🌡️ **Environmental compensation** – accounts for temperature/humidity using a reference mic  
-- ⚡ **Ultra-low latency** – limited only by microphone processing speed  
-- 💸 **Extremely low cost** – target price: under €10 per tracker/base station
+Using infrared together with sound and comparing the delay.
+This method is inspired by the phenomena that you can see a lighting before you can hear it and by counting the seconds between those you can calculate the distance.
 
----
+Infrared is just one idea. Every timer I mention infrared it could also be any other methods of transmitting a signal like a wire or rf.
 
-## 📐 The Plan
+Use diffrent frequencies to allow seperation of signals. Also change frequency over time to allow a design that is low latency. SO instead of using pulses we send a continius changing signal and use that instead.
 
-1. **Base stations** emit modulated ultrasonic signals (e.g., 20–40 kHz) in continuous frequency sweeps.
-2. Each station uses a **unique sweep pattern** to be individually identifiable.
-3. The **tracker** (e.g., on a headset) receives these signals through a microphone.
-4. By matching received frequencies with known sweep timings, the **distance to each station** can be calculated.
-5. With distances to four or more stations, the tracker computes its **3D position via triangulation**.
-6. **Reflections are ignored** by checking for mismatches in expected signal behavior.
+Use existing hardware to keep cost down by combining the infared sensor with the microphone sensort and parse it in one singal or stereo adc. This way this method can be used my normal operating systems without realtime requirement.
 
----
+Maybe use more speakers instead of infrared to allow a design that does not even need special hardware and can be used by any phone.
 
-## 🧪 Project Status
+Modulate information with am or fm onto sound and infrared signals
 
-This project is currently in the **concept phase**.
+Combine method with imu for better accuracy
 
----
+## Plan
 
+I will be testing multiple metrhods and decide which is the best going forward.
 
-## 📜 License
+For any progress or questions please join the discord server I made for this purpose.
+https://discord.gg/m6Ew5UtkmC
 
-MIT License — free for private, academic, or commercial use.
+Any help is welcome. So feel free to join the dc.
 
----
-
-## 🤝 Contribute
-
-Contributions are welcome! 
-Please just throw a dm on discord. Planing to organize everything there. Username: mh48
----
-
-
-## ✍️ Author
-
-Idea & concept: MokkaHornisse48 (Nikolas Nowak)
+My username on discord is mh48 so feel free to write me a pm if link doesn't work.
